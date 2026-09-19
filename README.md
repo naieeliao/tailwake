@@ -21,6 +21,8 @@ Enable Wake-on-LAN in the target computer’s firmware and operating-system sett
 
 When your iPhone or iPad and the target computer share a local network, choose **Local (UDP)** when adding the computer. Tailwake broadcasts the WoL magic packet directly—no relay is required.
 
+<img src="images/direct-udp-broadcast.png" alt="An iPhone or iPad sends a Wake-on-LAN magic packet through the local network to the target computer." width="900">
+
 ![Tailwake’s device list with an example local PC and two example relay-connected computers.](images/example-device-list.png)
 
 _The screenshot uses fictional example devices; the app’s list shows whether each computer uses a local or relay wake._
@@ -33,11 +35,21 @@ The relay receives the SSH connection from Tailwake and broadcasts the wake pack
 
 ![Tailwake’s relay configuration form, showing fictional example values for a media server.](images/example-relay-setup.png)
 
-### Choose a relay
+### Router as relay
 
 An SSH-capable router can work when it can run the selected wake tool. OpenWrt is a strong choice; Asuswrt-Merlin, FreshTomato, DD-WRT, and Gargoyle can also work when SSH is enabled and the needed wake tool is available.
 
+<img src="images/router-relay-etherwake.png" alt="Tailwake connects over SSH to a router, which sends an Ethernet wake frame to the target computer with etherwake." width="900">
+
+<img src="images/router-relay-wakeonlan.png" alt="Tailwake connects over SSH to a router, which broadcasts a Wake-on-LAN packet to the target computer with wakeonlan." width="900">
+
+### Small Linux computer as relay
+
 A Raspberry Pi is one option, but any always-on Linux single-board computer can work when it has SSH, the wake tool, and access to the target computer’s local broadcast or VLAN segment.
+
+<img src="images/small-computer-relay-etherwake.png" alt="Tailwake connects over SSH to a small Linux computer, which sends an Ethernet wake frame to the target computer with etherwake." width="900">
+
+<img src="images/small-computer-relay-wakeonlan.png" alt="Tailwake connects over SSH to a small Linux computer, which broadcasts a Wake-on-LAN packet to the target computer with wakeonlan." width="900">
 
 ### Choose the relay’s wake tool
 
