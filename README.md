@@ -21,11 +21,17 @@ Enable Wake-on-LAN in the target computer’s firmware and operating-system sett
 
 When your iPhone or iPad and the target computer share a local network, choose **Local (UDP)** when adding the computer. Tailwake broadcasts the WoL magic packet directly—no relay is required.
 
+![Tailwake’s device list with an example local PC and two example relay-connected computers.](images/example-device-list.png)
+
+_The screenshot uses fictional example devices; the app’s list shows whether each computer uses a local or relay wake._
+
 ## Wake while away from home
 
 A router or small Linux computer on the target PC’s local network can act as an SSH relay. In Tailwake, choose **Relay (SSH)**, then enter the relay’s address, port, user, authentication method, and wake tool.
 
 The relay receives the SSH connection from Tailwake and broadcasts the wake packet where the target computer can hear it.
+
+![Tailwake’s relay configuration form, showing fictional example values for a media server.](images/example-relay-setup.png)
 
 ### Choose a relay
 
