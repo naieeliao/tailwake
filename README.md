@@ -23,9 +23,9 @@ When your iPhone or iPad and the target computer share a local network, choose *
 
 <img src="images/direct-udp-broadcast.png" alt="An iPhone or iPad sends a Wake-on-LAN magic packet through the local network to the target computer." width="900">
 
-![Tailwake’s device list with an example local PC and two example relay-connected computers.](images/example-device-list.png)
+![Tailwake’s device list showing three fictional relay-connected target computers.](images/example-device-list.png)
 
-_The screenshot uses fictional example devices; the app’s list shows whether each computer uses a local or relay wake._
+_The screenshot uses fictional sample devices: Media server, PC, and Workstation._
 
 ## Wake while away from home
 
@@ -33,7 +33,7 @@ A router or small Linux computer on the target PC’s local network can act as a
 
 The relay receives the SSH connection from Tailwake and broadcasts the wake packet where the target computer can hear it.
 
-![Tailwake’s relay configuration form, showing fictional example values for a media server.](images/example-relay-setup.png)
+![Tailwake’s relay configuration form, showing fictional sample values for Media server.](images/example-relay-setup.png)
 
 ### Router as relay
 
