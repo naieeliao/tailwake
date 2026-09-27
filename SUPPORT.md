@@ -4,6 +4,10 @@
 
 Tailwake is designed to remain useful without a subscription. If Tailwake is helpful, the app also offers ways to support its development.
 
+<p align="center">
+  <img src="images/example-support.png" alt="Tailwake Support screen with optional tips and purchase restoration." width="320">
+</p>
+
 ## Relay-wake allowance
 
 Tailwake includes seven free relay wakes per calendar month, resetting on the first. Local wakes remain free and unlimited.

@@ -58,6 +58,10 @@ Use an SSH password or an unencrypted OpenSSH Ed25519 private key to sign in to 
 
 Tailwake pins a relay’s SSH host key after its first successful connection. If the key changes later, Tailwake stops before handing over a password or key and asks you to compare the new key before reconnecting.
 
+<p align="center">
+  <img src="images/example-relay-address.png" alt="Tailwake relay configuration showing the SSH address, authentication, and wake tool settings." width="320">
+</p>
+
 ## Set up a PC in Tailwake
 
 <p align="center">
@@ -75,6 +79,14 @@ Tailwake pins a relay’s SSH host key after its first successful connection. If
 
 With **Verify before waking**, Tailwake checks the configured TCP address and port and skips the wake when the PC already answers. **Verify after waking** checks once after the selected 1–60 minute delay (five minutes by default).
 
+<p align="center">
+  <img src="images/example-verify-both.png" alt="Tailwake verification settings with checks before and after waking enabled." width="320">
+</p>
+
 The **Wake Log** keeps each wake attempt, follow-up verification, and relay-tool installation result on your device. For waking a PC by voice or on a schedule without opening the app, see [Automate Wakes](AUTOMATION.md).
+
+<p align="center">
+  <img src="images/example-wake-log.png" alt="Tailwake Wake Log showing successful wakes, verified PCs, and a no-reply result." width="320">
+</p>
 
 For relay-wake limits, subscriptions, and optional tips, see [Support Development](SUPPORT.md).
