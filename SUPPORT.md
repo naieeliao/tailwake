@@ -1,6 +1,6 @@
 # Support Development
 
-[← Tailwake home](README.md) · [Instructions](INSTRUCTIONS.md) · [Privacy Policy](PRIVACY.md) · [Terms of Use](TERMS.md)
+[← Tailwake home](README.md) · [Instructions](INSTRUCTIONS.md) · [Automate Wakes](AUTOMATION.md) · [Privacy Policy](PRIVACY.md) · [Terms of Use](TERMS.md)
 
 Tailwake is designed to remain useful without a subscription. If Tailwake is helpful, the app also offers ways to support its development.
 

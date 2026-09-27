@@ -1,6 +1,6 @@
 # Tailwake instructions
 
-[← Tailwake home](README.md) · [Support Development](SUPPORT.md) · [Privacy Policy](PRIVACY.md) · [Terms of Use](TERMS.md)
+[← Tailwake home](README.md) · [Automate Wakes](AUTOMATION.md) · [Support Development](SUPPORT.md) · [Privacy Policy](PRIVACY.md) · [Terms of Use](TERMS.md)
 
 ## Before you start
 
@@ -67,10 +67,10 @@ Tailwake pins a relay’s SSH host key after its first successful connection. If
 5. Optionally turn on **Verify** and enter a TCP service on the PC, such as Remote Desktop on port 3389.
 6. Test the wake while the PC is still on, before relying on it remotely.
 
-## Verify, log, and automate
+## Verify and log
 
 With **Verify before waking**, Tailwake checks the configured TCP address and port and skips the wake when the PC already answers. **Verify after waking** checks once after the selected 1–60 minute delay (five minutes by default).
 
-The **Wake Log** keeps each wake attempt, follow-up verification, and relay-tool installation result on your device. You can also use the **Wake PC** action from Siri or Shortcuts to wake one of your saved PCs without opening the app.
+The **Wake Log** keeps each wake attempt, follow-up verification, and relay-tool installation result on your device. For waking a PC by voice or on a schedule without opening the app, see [Automate Wakes](AUTOMATION.md).
 
 For relay-wake limits, subscriptions, and optional tips, see [Support Development](SUPPORT.md).
