@@ -1,19 +1,39 @@
-# Tailwake Privacy Policy
+# Privacy Policy
 
-Effective September 16, 2026.
+Effective date: September 16, 2026
 
-Tailwake does not use advertising, analytics, or tracking, and has no sign-in or developer-run server. The developer does not sell personal information.
+## Summary
 
-Device names, MAC and IP addresses, relay settings, wake history, and preferences are stored locally on the device. SSH credentials, SecureOn passwords, the relay allowance counter, and a marker that a tip was made (used only to tell whether Restore Purchases has anything to look for) are stored in the iOS Keychain using device-only protection.
+Tailwake does not use advertising, analytics, or tracking. Tailwake does not sell personal information.
 
-When requested, Tailwake sends a magic packet on the local network or connects to the SSH relay configured by the user. Relay commands and destinations are sent only to that relay and are not sent to the developer. Apple processes purchases and provides StoreKit transaction and subscription status; Tailwake does not receive payment-card details.
+## Information stored on your device
 
-Local Network access is used for wake packets, TCP status probes, and configured local SSH relays. Notifications report wake results. These permissions can be changed in iOS Settings.
+Tailwake stores information and settings on your device so the app can work, including information you provide and details about how the app is used. Sensitive information is protected using your device's security features. Some limited information may remain on your device after a reinstall so the app keeps working correctly.
 
-Addresses can be deleted inside the app, and the wake log can be cleared. Deleting the app removes its local files. iOS may retain device-only Keychain items after app deletion. Tailwake has no sign-in and no server run by its developer, so the developer never receives a copy of your app data and has nothing to retrieve or delete.
+## Network activity
 
-Apple supplies App Store, StoreKit, notification, and operating-system services under Apple's privacy terms. Tailwake does not provide saved addresses, credentials, wake history, or relay commands to advertising or analytics providers.
+When you use Tailwake, the app communicates with the devices and services you choose, on your local network or over the internet, to carry out the actions you request. Tailwake does not send this information to the developer.
 
-For privacy questions, use the developer contact information on Tailwake's App Store listing.
+## Purchases
 
-Material changes to this policy will require review and acceptance of a new document version in the app.
+Apple processes purchases and provides Tailwake with purchase and subscription status. Tailwake does not receive your payment details.
+
+## Service providers
+
+Apple provides App Store, notification, and operating-system services under Apple's privacy terms. Tailwake does not provide your information to advertising or analytics providers.
+
+## Permissions
+
+Tailwake may ask for permissions, such as Local Network access and notifications, to provide its features. You can change Local Network access in Settings > Privacy & Security > Local Network, and notifications in Settings > Notifications > Tailwake.
+
+## Deleting information
+
+Information stored on your device is removed when you delete the app, except limited information that may remain so the app works correctly after a reinstall. Information protected as device-only is not synchronized to other devices.
+
+## Questions and requests
+
+Tailwake has no sign-in and no server, so the developer never receives your app data. For privacy questions, use the developer contact information on Tailwake's App Store listing.
+
+## Policy changes
+
+If this policy changes materially, Tailwake will ask you to review and accept the new version before continuing.
