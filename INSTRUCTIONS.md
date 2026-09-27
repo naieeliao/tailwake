@@ -86,16 +86,24 @@ Tailwake pins a relay’s SSH host key after its first successful connection. If
      <img src="images/example-verify-both.png" alt="Tailwake verification settings with checks before and after waking enabled." width="320">
    </p>
 
+   With **Verify before waking**, Tailwake checks the configured TCP address and port and skips the wake when the PC already answers. **Verify after waking** checks once after the selected 1–60 minute delay (five minutes by default).
+
 6. Test the wake while the PC is still on, before relying on it remotely.
 
-## Verify and log
-
-With **Verify before waking**, Tailwake checks the configured TCP address and port and skips the wake when the PC already answers. **Verify after waking** checks once after the selected 1–60 minute delay (five minutes by default).
+## Wake Log
 
 The **Wake Log** keeps each wake attempt, follow-up verification, and relay-tool installation result on your device. For waking a PC by voice or on a schedule without opening the app, see [Automate Wakes](AUTOMATION.md).
 
 <p align="center">
   <img src="images/example-wake-log.png" alt="Tailwake Wake Log showing successful wakes, verified PCs, and a no-reply result." width="320">
 </p>
+
+Tap an entry to open its transcript, which includes the technical details useful for debugging.
+
+<p align="center">
+  <img src="images/example-wake-log-transcript.png" alt="An expanded Tailwake Wake Log entry showing its transcript." width="320">
+</p>
+
+To include a transcript in a bug report, select its text, copy it, then paste it into [a new bug report](https://github.com/naieeliao/tailwake/issues/new?template=bug_report.md). Redact MAC addresses, IP addresses or hostnames, device names, SSH usernames, passwords, and keys before posting.
 
 For relay-wake limits, subscriptions, and optional tips, see [Support Development](SUPPORT.md).
