@@ -2,20 +2,16 @@
 
 Wake a PC from your iPhone or iPad—on the same local network or through an SSH relay you control.
 
-Tailwake sends a standard Wake-on-LAN (WoL) magic packet. At home, your device broadcasts it directly. Away from home, Tailwake securely connects to an always-on relay device on the PC’s network and asks it to send the wake packet locally.
+Tailwake sends a standard Wake-on-LAN (WoL) magic packet. When your device shares a local network with the PC, it broadcasts the packet directly. For a remote wake, Tailwake securely connects to an always-on relay device on the PC’s network and asks it to send the wake packet locally.
 
 ## Explore Tailwake
 
-- [Instructions](INSTRUCTIONS.md) — Set up local and relay wakes, verification, wake tools, and Siri or Shortcuts.
+- [Instructions](INSTRUCTIONS.md) — Set up local and remote wakes, configure verification and wake tools, and use Siri or Shortcuts.
 - [Privacy Policy](PRIVACY.md) — Read how Tailwake handles your information.
 - [Terms of Use](TERMS.md) — Review usage and service terms.
-- [Support Development](SUPPORT.md) — Learn about the public beta, relay-wake allowance, subscriptions, lifetime unlock, and optional tips.
+- [Support Development](SUPPORT.md) — Learn about relay-wake allowance, subscriptions, lifetime unlock, and optional tips.
 
-## Wake your way
-
-On a shared local network, Tailwake sends the magic packet straight from your iPhone or iPad. For a remote wake, it uses an SSH relay device that you choose and control—such as a compatible router or a small Linux computer—on the PC’s network.
-
-> Your remote-access path is your choice. [Tailscale](https://tailscale.com/) is a good way to reach a relay privately without opening an inbound router port.
+> Your remote-access path is your choice. [Tailscale](https://tailscale.com/) is one way to reach a relay privately without opening an inbound router port.
 
 Tailwake can verify whether a PC is already online, log the result of every wake, and provide a **Wake PC** action for Siri and Shortcuts.
 
