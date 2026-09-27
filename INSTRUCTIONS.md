@@ -58,30 +58,39 @@ Use an SSH password or an unencrypted OpenSSH Ed25519 private key to sign in to 
 
 Tailwake pins a relay’s SSH host key after its first successful connection. If the key changes later, Tailwake stops before handing over a password or key and asks you to compare the new key before reconnecting.
 
-<p align="center">
-  <img src="images/example-relay-address.png" alt="Tailwake relay configuration showing the SSH address, authentication, and wake tool settings." width="320">
-</p>
-
 ## Set up a PC in Tailwake
 
-<p align="center">
-  <img src="images/example-relay-setup.png" alt="Tailwake Edit PC screen configured for an SSH relay." width="320">
-</p>
-
 1. Open Tailwake and add a PC.
+
+   <p align="center">
+     <img src="images/example-device-list.png" alt="Tailwake device list showing saved PCs and their wake methods." width="320">
+   </p>
+
 2. Enter the PC’s name and MAC address.
+
 3. Choose **Local (UDP)** when you are on the same network, or **Relay (SSH)** for remote wakes.
+
+   <p align="center">
+     <img src="images/example-relay-setup.png" alt="Tailwake Edit PC screen configured for an SSH relay." width="320">
+   </p>
+
 4. For a relay, enter the SSH connection details, choose password or Ed25519-key authentication, and select `etherwake` or `wakeonlan`.
+
+   <p align="center">
+     <img src="images/example-relay-address.png" alt="Tailwake relay configuration showing the SSH address, authentication, and wake tool settings." width="320">
+   </p>
+
 5. Optionally turn on **Verify** and enter a TCP service on the PC, such as Remote Desktop on port 3389.
+
+   <p align="center">
+     <img src="images/example-verify-both.png" alt="Tailwake verification settings with checks before and after waking enabled." width="320">
+   </p>
+
 6. Test the wake while the PC is still on, before relying on it remotely.
 
 ## Verify and log
 
 With **Verify before waking**, Tailwake checks the configured TCP address and port and skips the wake when the PC already answers. **Verify after waking** checks once after the selected 1–60 minute delay (five minutes by default).
-
-<p align="center">
-  <img src="images/example-verify-both.png" alt="Tailwake verification settings with checks before and after waking enabled." width="320">
-</p>
 
 The **Wake Log** keeps each wake attempt, follow-up verification, and relay-tool installation result on your device. For waking a PC by voice or on a schedule without opening the app, see [Automate Wakes](AUTOMATION.md).
 

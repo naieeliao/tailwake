@@ -4,10 +4,6 @@ Wake a PC from your iPhone or iPad—on the same local network or through an SSH
 
 Tailwake wakes PCs with standard Wake-on-LAN (WoL) magic packets. When your device shares a local network with the PC, it broadcasts the packet directly. For a remote wake, Tailwake securely connects to an always-on relay device on the PC’s network. The relay device broadcasts the packet locally.
 
-<p align="center">
-  <img src="images/example-device-list.png" alt="Tailwake device list showing saved PCs and their wake methods." width="320">
-</p>
-
 ## Explore Tailwake
 
 - [Instructions](INSTRUCTIONS.md) — Set up local and remote wakes, install wake tools, and configure pre- and post-wake online verification.
