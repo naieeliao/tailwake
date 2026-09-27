@@ -60,6 +60,10 @@ Tailwake pins a relay’s SSH host key after its first successful connection. If
 
 ## Set up a PC in Tailwake
 
+<p align="center">
+  <img src="images/example-relay-setup.png" alt="Tailwake Edit PC screen configured for an SSH relay." width="320">
+</p>
+
 1. Open Tailwake and add a PC.
 2. Enter the PC’s name and MAC address.
 3. Choose **Local (UDP)** when you are on the same network, or **Relay (SSH)** for remote wakes.
