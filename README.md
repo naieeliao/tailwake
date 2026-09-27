@@ -7,13 +7,9 @@ Tailwake sends a standard Wake-on-LAN (WoL) magic packet. At home, your device b
 ## Explore Tailwake
 
 - [Instructions](INSTRUCTIONS.md) — Set up local and relay wakes, verification, wake tools, and Siri or Shortcuts.
-- [Support Tailwake](SUPPORT.md) — Learn about the public beta, relay-wake allowance, subscriptions, lifetime unlock, and optional tips.
 - [Privacy Policy](PRIVACY.md) — Read how Tailwake handles your information.
 - [Terms of Use](TERMS.md) — Review usage and service terms.
-
-![Tailwake’s device list showing three fictional relay-connected PCs.](images/example-device-list.png)
-
-_The screenshot uses fictional sample devices: Media server, PC, and Workstation._
+- [Support Development](SUPPORT.md) — Learn about the public beta, relay-wake allowance, subscriptions, lifetime unlock, and optional tips.
 
 ## Wake your way
 

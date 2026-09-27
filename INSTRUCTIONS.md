@@ -1,6 +1,6 @@
 # Tailwake instructions
 
-[← Tailwake home](README.md) · [Support Tailwake](SUPPORT.md) · [Privacy Policy](PRIVACY.md) · [Terms of Use](TERMS.md)
+[← Tailwake home](README.md) · [Support Development](SUPPORT.md) · [Privacy Policy](PRIVACY.md) · [Terms of Use](TERMS.md)
 
 ## Before you start
 
@@ -26,8 +26,6 @@ When your iPhone or iPad and the target PC share a local network, choose **Local
 A router or small Linux computer on the target PC’s local network can act as an SSH relay. In Tailwake, choose **Relay (SSH)**, then enter the relay device’s address, port, user, authentication method, and wake tool.
 
 The relay device receives the SSH connection from Tailwake and broadcasts the wake packet where the target PC can hear it.
-
-![Tailwake’s relay configuration form with fictional sample values for Media server.](images/example-relay-setup.png)
 
 ### Router as relay
 
@@ -75,4 +73,4 @@ With **Verify before waking**, Tailwake checks the configured TCP address and po
 
 The **Wake Log** keeps each wake attempt, follow-up verification, and relay-tool installation result on your device. You can also use the **Wake PC** action from Siri or Shortcuts to wake one of your saved PCs without opening the app.
 
-For relay-wake limits, subscriptions, and optional tips, see [Support Tailwake](SUPPORT.md).
+For relay-wake limits, subscriptions, and optional tips, see [Support Development](SUPPORT.md).
