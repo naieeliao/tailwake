@@ -4,21 +4,20 @@
 
 Tailwake is designed to remain useful without a subscription. If Tailwake is helpful, the app also offers ways to support its development.
 
-<p align="center">
-  <img src="images/example-support.png" alt="Tailwake Support screen showing free unlimited relay wakes before January 1, 2027, with optional tips." width="320">
-</p>
-
 ## Through December 31, 2026
 
 Relay wakes are free and unlimited during the beta period through December 31, 2026. Local wakes are always free and unlimited.
+
+<p align="center">
+  <img src="images/example-support.png" alt="Tailwake Support screen showing free unlimited relay wakes before January 1, 2027, with optional tips." width="320">
+</p>
 
 ## Planned from January 1, 2027
 
 The free-unlimited beta period is scheduled to end. The current plan is:
 
 - **Seven free relay wakes** per calendar month, resetting on the first.
-- **Monthly subscription** — Unlimited relay wakes while the subscription is active; renews monthly.
-- **Yearly subscription** — Unlimited relay wakes while the subscription is active; renews yearly.
+- **Subscription (monthly or yearly)** — Unlimited relay wakes while active; renews at the selected interval.
 - **Lifetime unlock** — Unlimited relay wakes forever.
 
 <p align="center">
